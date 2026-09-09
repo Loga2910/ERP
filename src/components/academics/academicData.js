@@ -1,0 +1,98 @@
+export const examSchedule = [
+  {
+    code: "MTH-101",
+    subject: "Mathematics",
+    type: "Core Theory",
+    date: "Sep 15, 2026",
+    time: "09:00 AM – 11:30 AM",
+    duration: "2.5h",
+    room: "Central Hall A & B",
+    capacity: "120 / 120",
+    weightage: "100 Marks",
+    percentage: "30% Term Total",
+    status: "Hall Tickets Released",
+    icon: "M",
+  },
+  {
+    code: "SCI-PHY-19",
+    subject: "Physics",
+    type: "Integrated",
+    date: "Sep 17, 2026",
+    time: "09:00 AM – 11:30 AM",
+    duration: "2.5h",
+    room: "Science Block Lab 1 & 2",
+    capacity: "114 / 120",
+    weightage: "100 Marks",
+    percentage: "30% Term Total",
+    status: "Configured",
+    icon: "P",
+  },
+  {
+    code: "ENG-102",
+    subject: "English",
+    type: "Core Theory",
+    date: "Sep 19, 2026",
+    time: "09:00 AM – 11:00 AM",
+    duration: "2h",
+    room: "Central Hall C",
+    capacity: "118 / 120",
+    weightage: "100 Marks",
+    percentage: "20% Term Total",
+    status: "Configured",
+    icon: "E",
+  },
+];
+
+export const academicStats = [
+  {
+    title: "ACADEMIC STRUCTURE",
+    value: "AY 2026–27",
+    subtitle: "Term 1 Active",
+    detail: "3 Terms • 14 Grades • 42 Sections • 84 Subjects",
+    type: "blue",
+  },
+  {
+    title: "UPCOMING EXAMINATIONS",
+    value: "Mid-Term",
+    subtitle: "Assessment 2026",
+    detail: "Sep 15 – Sep 28 • 1,216 Candidates",
+    badge: "6 Days Left",
+    type: "green",
+  },
+  {
+    title: "MARKS MODERATION",
+    value: "78%",
+    subtitle: "Moderated",
+    detail: "28 of 36 Grade Subject Rosters submitted by faculty",
+    change: "+14% today",
+    type: "teal",
+  },
+  {
+    title: "OFFICIAL REPORT CARDS",
+    value: "Drafting Stage",
+    subtitle: "",
+    detail: "CBSE + ICSE Scale v4.2 • Auto-computation",
+    type: "purple",
+  },
+];
+
+export const transcriptSubjects = [
+  {
+    subject: "Mathematics",
+    code: "MTH-101",
+    marks: "94/100",
+    grade: "A1",
+  },
+  {
+    subject: "Physics & Chemistry",
+    code: "SCI",
+    marks: "89/100",
+    grade: "A2",
+  },
+  {
+    subject: "English Literature",
+    code: "ENG",
+    marks: "92/100",
+    grade: "A1",
+  },
+];

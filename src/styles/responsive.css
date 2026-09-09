@@ -1,0 +1,434 @@
+/* =========================================
+   HEADER RESPONSIVE
+========================================= */
+
+@media (max-width: 1100px) {
+
+  .header-search {
+    width: 280px;
+  }
+
+  .profile-details {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 800px) {
+
+  .app-header {
+    padding: 0 16px;
+  }
+
+  .header-search {
+    width: 240px;
+  }
+
+  .add-student-button {
+    display: none;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .app-header {
+    gap: 10px;
+  }
+
+  .header-search {
+    flex: 1;
+
+    width: auto;
+  }
+
+  .quick-action-button {
+    display: none;
+  }
+
+  .header-profile {
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 1100px) {
+
+  .dashboard-stats {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .dashboard-lower-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .upcoming-card {
+    min-height: 250px;
+  }
+
+}
+
+
+@media (max-width: 750px) {
+
+  .dashboard-header {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .dashboard-actions {
+    width: 100%;
+  }
+
+  .dashboard-quick-action,
+  .dashboard-add-button {
+    flex: 1;
+  }
+
+  .attention-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .operations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .academic-progress-body {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .dashboard-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .page-content {
+    padding: 16px;
+  }
+
+  .academic-progress-body {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-header h1 {
+    font-size: 22px;
+  }
+
+}
+@media (max-width: 1100px) {
+
+  .student-toolbar {
+    flex-direction: column;
+  }
+
+  .student-actions {
+    width: 100%;
+  }
+
+}
+
+
+@media (max-width: 800px) {
+
+  .student-stats {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+}
+
+
+@media (max-width: 550px) {
+
+  .student-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .student-search {
+    width: 100%;
+  }
+
+  .student-filter-row {
+    width: 100%;
+  }
+
+  .student-filter-select {
+    flex: 1;
+  }
+
+}
+@media (max-width: 1050px) {
+
+  .employee-stats {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .employees-header {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .employee-header-actions {
+    justify-content: flex-start;
+  }
+
+}
+
+
+@media (max-width: 750px) {
+
+  .employee-tabs-row {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .employee-filters {
+    flex-wrap: wrap;
+  }
+
+  .employee-search {
+    width: 100%;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .employee-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .employee-tabs {
+    width: 100%;
+
+    overflow-x: auto;
+  }
+
+  .employee-tab {
+    white-space: nowrap;
+  }
+
+}
+@media (max-width: 1050px) {
+
+  .employee-stats {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .employees-header {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .employee-header-actions {
+    justify-content: flex-start;
+  }
+
+}
+
+
+@media (max-width: 750px) {
+
+  .employee-tabs-row {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .employee-filters {
+    flex-wrap: wrap;
+  }
+
+  .employee-search {
+    width: 100%;
+  }
+
+}
+
+
+@media (max-width: 500px) {
+
+  .employee-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .employee-tabs {
+    width: 100%;
+
+    overflow-x: auto;
+  }
+
+  .employee-tab {
+    white-space: nowrap;
+  }
+
+}
+@media (max-width: 1100px) {
+
+  .attendance-page-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .attendance-header-actions {
+    align-items: flex-start;
+    flex-direction: row;
+  }
+
+  .attendance-main-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+@media (max-width: 850px) {
+
+  .attendance-stats {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .attendance-filters {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .attendance-tabs {
+    overflow-x: auto;
+  }
+
+}
+
+
+@media (max-width: 550px) {
+
+  .attendance-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .attendance-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .attendance-compliance {
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .freeze-deadline {
+    margin-left: 36px;
+  }
+
+  .attendance-header-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .lock-sections-button {
+    width: 100%;
+  }
+
+}
+@media (max-width: 1100px) {
+
+  .academics-content-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .academics-side {
+    display: grid;
+
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .academic-hierarchy {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .hierarchy-items {
+    width: 100%;
+
+    overflow-x: auto;
+  }
+
+}
+
+
+@media (max-width: 850px) {
+
+  .academic-stats {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+  }
+
+  .academics-header {
+    align-items: flex-start;
+
+    flex-direction: column;
+  }
+
+  .academics-header-actions {
+    width: 100%;
+
+    justify-content: flex-start;
+  }
+
+  .academic-tabs {
+    overflow-x: auto;
+  }
+
+  .academic-tab {
+    flex: 0 0 auto;
+  }
+
+}
+
+
+@media (max-width: 600px) {
+
+  .academic-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .exam-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .exam-schedule-filters {
+    grid-template-columns: 1fr;
+  }
+
+  .academics-side {
+    grid-template-columns: 1fr;
+  }
+
+  .academics-header-actions {
+    align-items: stretch;
+
+    flex-direction: column;
+  }
+
+  .create-exam-button {
+    justify-content: center;
+  }
+
+}
